@@ -1,0 +1,26 @@
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Environment files
+frontend/.env
+backend/.env
+
+# Logs
+backend/logs/
+*.log
+
+# Build folders
+frontend/dist/
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Uploads (optional if generated at runtime)
+backend/uploads/*
+!backend/uploads/.gitkeep
